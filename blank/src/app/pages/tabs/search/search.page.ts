@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search.page.scss'],
 })
 export class SearchPage implements OnInit {
-
+  searchTerm: string | undefined;
   constructor() { }
 
   ngOnInit() {
